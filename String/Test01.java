@@ -20,7 +20,7 @@ public class Test01 {
 		String id = scan.next();
 		System.out.println("Welcome! " + id);
 		
-    //Q3
+   		 //Q3
 		scan.nextLine();
 		String[] combined = new String[3];
 		
