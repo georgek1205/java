@@ -14,12 +14,12 @@ public class OmrCard {
 	
 		public void getName()
 		{
-			System.out.println("이름 : " + name);
+			System.out.println("Name : " + name);
 		}
 	
 		public void getSid()
 		{
-			System.out.println("학번 : " + sid);
+			System.out.println("Student ID : " + sid);
 		}
 		
 		public void setAnwer(String answer)
