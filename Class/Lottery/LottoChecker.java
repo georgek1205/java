@@ -32,7 +32,7 @@ public class LottoChecker {
 	
 	public void printChecker()
 	{
-		System.out.print("당첨번호 : ");
+		System.out.print("The Winning Number : ");
 		for(int i = 0; i < auto_ans.length; i++)
 		{
 			System.out.print(auto_ans[i] + " ");
@@ -58,22 +58,22 @@ public class LottoChecker {
 		switch(count)
 		{
 			case 6:
-				System.out.println("1등");
+				System.out.println("1st Prize");
 				break;
 			case 5:
-				System.out.println("2등");
+				System.out.println("2nd Prize");
 				break;
 			case 4:
-				System.out.println("3등");
+				System.out.println("3rd Prize");
 				break;
 			case 3:
-				System.out.println("4등");
+				System.out.println("4th Prize");
 				break;
 			case 2:
-				System.out.println("5등");
+				System.out.println("5th Prize");
 				break;
 			default:
-				System.out.println("꽝!");
+				System.out.println("Lose!");
 			
 				
 		}
