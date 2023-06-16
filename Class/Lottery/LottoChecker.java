@@ -8,12 +8,12 @@ public class LottoChecker {
 	
 	public LottoChecker()
 	{
-		int i, j = 0;
+		int i, j;
 		Random rand = new Random();
 		for (i = 0; i < auto_ans.length; i++) 
 		{
 			auto_ans[i] = rand.nextInt(46) + 1;
-			
+			j = 0;
 			while(j < i)
 			{
 				if(auto_ans[j] != auto_ans[i])
