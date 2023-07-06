@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author seunggyukim
- *
- */
-module Function {
-}
